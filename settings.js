@@ -6,8 +6,8 @@ function convertToBool(text, fault = 'true') {
 
 
 global.thumb = fs.readFileSync('./lib/bugs/venom.jpg')
-const BOTNAME = 'VAJIRA-MD|-*Ashan*-BOT™';
-const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
+const BOTNAME = '*TAS BOT MD*|-*Ashan*-BOT™';
+const FOOTERNAME = '> *TAS BOT MD* -N 343';
 global.owner = process.env.OWNER_NUMBER  || '94761597394' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
@@ -19,7 +19,7 @@ OWNER_NAME: process.env.OWNER_NAME || '*TAS*' ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
 LOGO: process.env.LOGO || `https://telegra.ph/file/ab0ea6ad90e2eb98090d9.jpg` ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,
-FOOTER: process.env.FOOTER || '‌👨‍💻 *TAS* -  ＭＤ - Ｖ5 👨‍💻',    
+FOOTER: process.env.FOOTER || '‌👨‍💻 *TAS* -  *TAS BOT MD*5 👨‍💻',    
 PREFIX: process.env.PREFIX || '.' ,
 LANG:  process.env.LANG || 'SI' ,
 ANTI_BAD: process.env.ANTI_BAD || false  ,
